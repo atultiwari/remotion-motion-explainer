@@ -1,0 +1,53 @@
+{
+  "name": "motion-explainer",
+  "version": "1.0.0",
+  "description": "Motion-graphics explainer video (remotion-motion-explainer skill template)",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/bundler": "4.0.535",
+    "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/media-utils": "4.0.535",
+    "@remotion/renderer": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "lucide-react": "^1.56.0",
+    "mediabunny": "1.61.3",
+    "qrcode": "^1.5.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.535",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.535",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3",
+    "vitest": "^5.0.4"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "estimate": "node scripts/estimate-durations.mjs",
+    "narration": "node scripts/export-narration.mjs",
+    "test": "vitest run",
+    "still": "remotion still",
+    "sfx": "python3 -I scripts/synth-audio.py",
+    "tts:script": "node scripts/make-tts-script.mjs",
+    "tts": "node scripts/make-tts-script.mjs && python3 -I scripts/sarvam-tts.py tts/script.md --takes tts/takes --pace 1.1",
+    "tts:check": "python3 -I scripts/check-takes.py",
+    "tts:master": "python3 -I scripts/master-narration.py",
+    "captions": "python3 -I scripts/build-captions.py",
+    "tts:lint": "node -e \"const g=require('./src/data/scenes.json');require('fs').writeFileSync('/tmp/explainer-script.txt',g.scenes.filter(s=>s.narration).map(s=>s.narration).join('\\n\\n'))\" && python3 -I scripts/check-script.py /tmp/explainer-script.txt --opening",
+    "chapters": "python3 -I scripts/youtube-chapters.py",
+    "stills": "node scripts/stills.mjs out/stills 0.7"
+  }
+}

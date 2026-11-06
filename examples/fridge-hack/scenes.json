@@ -1,0 +1,1451 @@
+{
+  "meta": {
+    "title": "The Night Supermarkets Cooked Their Own Food",
+    "subtitle": "...and what it means for AI in your hospital",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "wordsPerSecondEstimate": 2.9,
+    "music": {
+      "src": "audio/music.wav",
+      "volume": 0.45,
+      "duckedVolume": 0.25
+    },
+    "factsAsOf": "13 Oct 2026",
+    "beatTitles": {
+      "S1": "COLD OPEN",
+      "S2": "TITLE",
+      "S3": "FILE 01 · WHAT HAPPENED",
+      "S4": "FILE 02 · FIVE FAILURES",
+      "S5": "FILE 03 · THE PIVOT",
+      "S6": "FILE 04 · THE MIRROR",
+      "S6b": "FILE 05 · WHEN THE AI WALKS IN",
+      "S7": "FILE 06 · THE POISONED THERMOMETER",
+      "S8": "FILE 07 · WHY THEY BINNED IT ALL",
+      "S9": "FILE 08 · THE CHECKLIST",
+      "S10": "CLOSE",
+      "S9b": "NEXT STEP"
+    },
+    "mirrorRows": [
+      {
+        "left": "Contractor remote access to store panels",
+        "right": "Vendor remote access to PACS, LIS, AI servers, or an LLM left open \"for testing\""
+      },
+      {
+        "left": "Firmware patch never applied",
+        "right": "AI model and dependencies frozen at deployment"
+      },
+      {
+        "left": "Hidden master key",
+        "right": "Default analyzer passwords, shared vendor accounts, API keys hard-coded in apps"
+      },
+      {
+        "left": "Same controller in hundreds of stores",
+        "right": "One AI vendor or foundation model across many hospitals"
+      },
+      {
+        "left": "Setpoint changed to 50°C",
+        "right": "AI agent with write access to orders, EHR or dosing"
+      },
+      {
+        "left": "Alarm fooled by a 'normal' defrost",
+        "right": "Compromised model gives confident, plausible wrong answers; automation bias silences the human alarm"
+      }
+    ],
+    "mirrorHeaders": {
+      "left": "SUPERMARKET",
+      "right": "HOSPITAL / LAB"
+    },
+    "checklist": {
+      "title": "Monday-morning checklist",
+      "items": [
+        {
+          "icon": "shield",
+          "text": "Nothing administrative faces the open internet. Use a VPN or allow-list."
+        },
+        {
+          "icon": "refresh",
+          "text": "Patch on a schedule. Keep an inventory of everything you run."
+        },
+        {
+          "icon": "key",
+          "text": "No default or shared passwords. Ask vendors about support/backdoor accounts."
+        },
+        {
+          "icon": "hand",
+          "text": "AI reads by default. Any action needs a human click."
+        },
+        {
+          "icon": "activity",
+          "text": "Monitor independently. Audit AI outputs over time, not just at launch."
+        },
+        {
+          "icon": "log",
+          "text": "Log everything, so you know what to recall."
+        },
+        {
+          "icon": "users",
+          "text": "Treat vendors and contractors as part of your security."
+        }
+      ],
+      "indiaLowerThird": "India: report cyber incidents to CERT-In within 6 hours · patient data falls under the DPDP Act 2023"
+    },
+    "thumbnail": {
+      "temp": "50°C",
+      "headline": "Hackers heated hundreds of fridges. Remotely.",
+      "sub": "Your hospital's AI has the same open doors"
+    },
+    "sfx": {
+      "volume": 0.45,
+      "enabled": true
+    },
+    "brand": {
+      "watermark": "© 2026 Dr. Atul Tiwari",
+      "handle": "Reuse with credit"
+    },
+    "ttsPronunciations": {
+      "E.Leclerc": "E Leclair",
+      "CERT-In": "Cert-In",
+      "AIIMS": "Aims",
+      "Coopérative U said at least one hundred": "Coopérative U said, at least one hundred"
+    },
+    "thumbnails": [
+      {
+        "id": "thumb-a-thermometer",
+        "variant": "thermometer",
+        "temp": "50°C",
+        "headline": "FRIDGES HACKED.",
+        "accent": "HOSPITALS NEXT?",
+        "tag": "AI SECURITY FOR DOCTORS"
+      },
+      {
+        "id": "thumb-b-newspaper",
+        "variant": "newspaper",
+        "masthead": "The Cold Chain Chronicle",
+        "headline": "FRIDGES TURNED INTO OVENS",
+        "stamp": "YOUR HOSPITAL?",
+        "tag": "Real attack · Oct 2026"
+      },
+      {
+        "id": "thumb-c-split",
+        "variant": "split",
+        "leftLabel": "SUPERMARKET",
+        "leftTemp": "80°C",
+        "rightLabel": "BLOOD BANK",
+        "rightTemp": "4°C?",
+        "headline": "SAME OPEN DOOR"
+      },
+      {
+        "id": "thumb-d-agent",
+        "variant": "agent",
+        "headline": "AI WALKED IN.",
+        "accent": "Nobody told it to.",
+        "tag": "OpenAI agent · Medicare portal"
+      },
+      {
+        "id": "thumb-e-question",
+        "variant": "question",
+        "headline": "Who controls your blood bank fridge?",
+        "temp": "50°C",
+        "tag": "AI SECURITY FOR DOCTORS"
+      },
+      {
+        "id": "thumb-f-lessons",
+        "variant": "lessonsRow",
+        "temp": "50°C",
+        "tag": "REAL ATTACK · OCT 2026",
+        "headline": "FRIDGES HACKED.",
+        "accent": "LESSONS FOR HOSPITALS"
+      },
+      {
+        "id": "thumb-g-hospital",
+        "variant": "hospitalLearn",
+        "temp": "50°C",
+        "tag": "AI SECURITY FOR DOCTORS",
+        "headline": "THE 50°C HACK",
+        "accent": "WHAT HOSPITALS CAN LEARN"
+      },
+      {
+        "id": "thumb-h-doctor",
+        "variant": "doctorFridge",
+        "temp": "50°C",
+        "tag": "AI SECURITY FOR DOCTORS",
+        "headline": "THE FRIDGE HACK",
+        "accent": "A LESSON FOR HOSPITAL AI"
+      },
+      {
+        "id": "thumb-i-checklist",
+        "variant": "problemToChecklist",
+        "temp": "50°C",
+        "tag": "FRIDGE HACK → HOSPITAL AI",
+        "headline": "FRIDGES HACKED.",
+        "accent": "7 LESSONS FOR HOSPITALS"
+      },
+      {
+        "id": "thumb-j-decoded",
+        "variant": "decoded",
+        "temp": "50°C",
+        "tag": "EXPLAINED FOR DOCTORS",
+        "headline": "THE FRIDGE HACK,",
+        "accent": "DECODED FOR HOSPITALS"
+      },
+      {
+        "id": "thumb-k-final",
+        "variant": "fridgeToFix",
+        "temp": "50°C",
+        "tag": "AI SECURITY FOR DOCTORS",
+        "headline": "FRIDGES HACKED:",
+        "accent": "7 LESSONS FOR",
+        "accent2": "HEALTHCARE AI"
+      }
+    ],
+    "finalThumbnail": "thumb-k-final"
+  },
+  "scenes": [
+    {
+      "id": "s01a_fridge_you_trust",
+      "beat": "S1",
+      "narration": "Somewhere in your hospital, there is a fridge you trust without thinking. It might hold blood bags, vaccines, or ten years of research samples. It reads four degrees every night, and nobody looks twice.",
+      "estimatedDurationSec": 12.3,
+      "component": "ThermometerDisplay",
+      "props": {
+        "label": "BLOOD BANK · FRIDGE 2",
+        "keyframes": [
+          {
+            "at": 0,
+            "temp": 4
+          },
+          {
+            "at": 1,
+            "temp": 4
+          }
+        ],
+        "alarmWorking": true,
+        "alarmOn": false,
+        "night": true,
+        "clock": {
+          "from": "02:11",
+          "to": "02:12"
+        },
+        "caption": "Illustrative scene"
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s01b_france_warming",
+      "beat": "S1",
+      "narration": "On the night of the eleventh of October, fridges just like that began to warm up in hundreds of French supermarkets. Ten degrees, then twenty five, then fifty. In one store, eighty. The alarms stayed quiet. And nobody touched a single fridge.",
+      "estimatedDurationSec": 15.1,
+      "component": "ThermometerDisplay",
+      "props": {
+        "label": "SUPERMARKET · FREEZER AISLE",
+        "keyframes": [
+          {
+            "at": 0,
+            "temp": 4
+          },
+          {
+            "at": 0.15,
+            "atWord": "warm",
+            "temp": 5
+          },
+          {
+            "at": 0.28,
+            "atWord": "Ten",
+            "temp": 10
+          },
+          {
+            "at": 0.38,
+            "atWord": "twenty",
+            "temp": 25
+          },
+          {
+            "at": 0.5,
+            "atWord": "fifty",
+            "temp": 50
+          },
+          {
+            "at": 0.62,
+            "atWord": "eighty",
+            "temp": 80
+          },
+          {
+            "at": 1,
+            "temp": 80
+          }
+        ],
+        "alarmWorking": false,
+        "alarmOn": false,
+        "night": true,
+        "melting": true,
+        "clock": {
+          "from": "23:40",
+          "to": "05:55"
+        },
+        "caption": "11–12 Oct 2026 · France"
+      },
+      "onScreenText": [],
+      "sourceCitation": "TIME, 13 Oct 2026 · Paris prosecutor's office",
+      "transition": "cut"
+    },
+    {
+      "id": "s01c_question",
+      "beat": "S1",
+      "narration": "So let me ask you something. Who, right now, could change the temperature of your blood bank fridge from their own home? If you are not sure, this video is for you.",
+      "estimatedDurationSec": 11.6,
+      "component": "KineticText",
+      "props": {
+        "accent": "ice",
+        "align": "center",
+        "size": "xl",
+        "lineCues": [
+          {
+            "atWord": "Who"
+          },
+          {
+            "atWord": "blood"
+          },
+          {
+            "atWord": "home"
+          }
+        ]
+      },
+      "onScreenText": [
+        "Who could change the temperature",
+        "of your blood bank fridge…",
+        "from home?"
+      ],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s02_title",
+      "beat": "S2",
+      "narration": "",
+      "estimatedDurationSec": 6,
+      "component": "TitleCard",
+      "props": {
+        "kicker": "AI SECURITY · FOR DOCTORS"
+      },
+      "onScreenText": [
+        "The Night Supermarkets Cooked Their Own Food",
+        "…and what it means for AI in your hospital"
+      ],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s03a_front_page",
+      "beat": "S3",
+      "narration": "Here is what we know so far. Overnight, someone reached into the refrigeration control systems of French supermarkets. They forced the fridges into a defrost cycle, the mode that normally melts ice off the coils. And they kept them there.",
+      "estimatedDurationSec": 14.4,
+      "component": "NewspaperFrontPage",
+      "props": {
+        "masthead": "The Cold Chain Chronicle",
+        "edition": "MORNING EDITION · TUESDAY 13 OCTOBER 2026 · PRICE: ONE DEGREE",
+        "headline": "FRIDGES TURNED INTO OVENS",
+        "subhead": "Hundreds of French supermarkets wake to warm freezers, spoiled food and fires after an overnight cyber-attack",
+        "photo": "thermometer",
+        "photoCaption": "A freezer display climbs past 50°C (moving picture, illustrative)",
+        "columns": [
+          "Hackers remotely raised the temperature of fridges and freezers in hundreds of French supermarkets on the night of 11–12 October, pushing some as high as 50°C.",
+          "According to BFM-TV, the attackers forced the refrigeration systems into a continuous defrost cycle. Le Monde reported that in some freezers and cold rooms the defrost was stretched from one hour to eight, delaying alarms.",
+          "The Paris prosecutor's office said fires broke out at several stores. An Intermarché in Normandy reported 80°C, with some equipment melting.",
+          "France's Prime Minister has asked ANSSI, the national cybersecurity agency, to investigate. Nobody has been publicly named as responsible."
+        ],
+        "sideHeadline": "WHO DID IT?",
+        "sideText": "Not publicly attributed as of 13 October. Investigators have not said how the attackers got in.",
+        "footnote": "Illustrative front page. Reporting summarised from TIME, BFM-TV, Le Monde and the Paris prosecutor's office."
+      },
+      "onScreenText": [],
+      "sourceCitation": "TIME, 13 Oct 2026 (citing BFM-TV, Le Monde)",
+      "transition": "spin"
+    },
+    {
+      "id": "s03b_clippings",
+      "beat": "S3",
+      "narration": "Within hours it was on every news desk. The word everyone used was unprecedented. Not one store, not one chain, but French food retail as a whole, in a single night.",
+      "estimatedDurationSec": 11.3,
+      "component": "ClippingsWall",
+      "props": {
+        "clippings": [
+          {
+            "outlet": "TIME",
+            "date": "13 Oct 2026",
+            "headline": "An 'unprecedented' cyber-attack targets the fridges of French supermarkets",
+            "tilt": -4
+          },
+          {
+            "outlet": "Bloomberg",
+            "date": "12 Oct 2026",
+            "headline": "Hackers hit French supermarkets in an attack that disabled fridges",
+            "tilt": 3
+          },
+          {
+            "outlet": "The Hacker News",
+            "date": "Oct 2026",
+            "headline": "Attackers heat supermarket fridges to 50°C by hijacking refrigeration controllers",
+            "tilt": -2
+          },
+          {
+            "outlet": "Al Jazeera",
+            "date": "13 Oct 2026",
+            "headline": "Hundreds of supermarkets in France hit by cyber-attack causing food losses",
+            "tilt": 5
+          },
+          {
+            "outlet": "ABC News (Australia)",
+            "date": "13 Oct 2026",
+            "headline": "Fridge temperatures raised at hundreds of French stores, food spoiled and fires reported",
+            "tilt": -5
+          }
+        ],
+        "note": "Headlines paraphrased. Outlet names shown as plain text."
+      },
+      "onScreenText": [],
+      "sourceCitation": "Headlines paraphrased from the outlets named",
+      "transition": "fade"
+    },
+    {
+      "id": "s03c_map",
+      "beat": "S3",
+      "narration": "Look at the spread. Intermarché and Netto said about one hundred and eighty of their stores were hit. Coopérative U said at least one hundred. At Carrefour it was eighty, at Monoprix about thirty, and several E.Leclerc stores were hit as well.",
+      "estimatedDurationSec": 15.1,
+      "component": "FranceMapDots",
+      "props": {
+        "chains": [
+          {
+            "name": "Intermarché / Netto",
+            "count": 180,
+            "prefix": "~",
+            "note": "per parent company (BFM-TV reported 300)",
+            "color": "red",
+            "cue": {
+              "atWord": "Intermarché"
+            }
+          },
+          {
+            "name": "Coopérative U",
+            "count": 100,
+            "prefix": "≥",
+            "note": "at least",
+            "color": "amber",
+            "cue": {
+              "atWord": "Coopérative"
+            }
+          },
+          {
+            "name": "Carrefour",
+            "count": 80,
+            "prefix": "",
+            "note": "",
+            "color": "orange",
+            "cue": {
+              "atWord": "Carrefour"
+            }
+          },
+          {
+            "name": "Monoprix",
+            "count": 30,
+            "prefix": "~",
+            "note": "",
+            "color": "pink",
+            "cue": {
+              "atWord": "Monoprix"
+            }
+          },
+          {
+            "name": "E.Leclerc",
+            "count": 6,
+            "prefix": "",
+            "note": "\"several\"",
+            "label": "several",
+            "color": "violet",
+            "cue": {
+              "atWord": "E.Leclerc"
+            }
+          }
+        ],
+        "mapNote": "Simplified outline · store positions illustrative"
+      },
+      "onScreenText": [],
+      "sourceCitation": "TIME, 13 Oct 2026 (Les Mousquetaires, BFM-TV)",
+      "transition": "fade"
+    },
+    {
+      "id": "s03d_timeline",
+      "beat": "S3",
+      "narration": "In some cold rooms, a defrost that should last one hour was stretched to eight. That stretch kept the alarms quiet. One store in Normandy reported eighty degrees, and some equipment melted. Several stores caught fire.",
+      "estimatedDurationSec": 13,
+      "component": "NightTimeline",
+      "props": {
+        "axisLabel": "Hours after the defrost was forced · illustrative scale",
+        "hours": 10,
+        "normalHours": 1,
+        "stretchedHours": 8,
+        "events": [
+          {
+            "hour": 0,
+            "text": "Fridges forced into defrost",
+            "tone": "amber"
+          },
+          {
+            "hour": 1,
+            "text": "A normal defrost would end here",
+            "tone": "ice"
+          },
+          {
+            "hour": 8,
+            "text": "Stretched defrost ends · alarms were delayed",
+            "tone": "red"
+          },
+          {
+            "hour": 9.6,
+            "text": "Morning, 12 Oct: 80°C in one store · fires at several",
+            "tone": "red"
+          }
+        ]
+      },
+      "onScreenText": [],
+      "sourceCitation": "Le Monde & Paris prosecutor via TIME, 13 Oct 2026",
+      "transition": "fade"
+    },
+    {
+      "id": "s03e_losses",
+      "beat": "S3",
+      "narration": "The chief executive of Intermarché put the damage at tens of millions of euros nationwide, in a single day. Two stores in Alsace alone reported two hundred and seventy thousand euros lost. Owners described nearly a dumpster of frozen food thrown out at each store.",
+      "estimatedDurationSec": 15.8,
+      "component": "StatCounter",
+      "props": {
+        "stats": [
+          {
+            "value": 270000,
+            "prefix": "€",
+            "suffix": "",
+            "label": "lost by two stores in Alsace alone",
+            "source": "BFM-TV via TIME"
+          }
+        ],
+        "quote": "“tens of millions of euros nationwide in a single day”",
+        "quoteBy": "Thierry Cotillard, CEO, Intermarché (to BFM-TV)",
+        "bins": 6,
+        "binLabel": "≈ one dumpster of frozen food, per store",
+        "statCue": {
+          "atWord": "Two"
+        },
+        "binCue": {
+          "atWord": "dumpster"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": "TIME, 13 Oct 2026 (BFM-TV)",
+      "transition": "fade"
+    },
+    {
+      "id": "s03f_who",
+      "beat": "S3",
+      "narration": "France's Prime Minister ordered the national cybersecurity agency to investigate. And who did it? As of today, nobody knows. No one has been publicly named.",
+      "estimatedDurationSec": 9.2,
+      "component": "KineticText",
+      "props": {
+        "accent": "amber",
+        "align": "center",
+        "size": "lg",
+        "stamp": "UNATTRIBUTED",
+        "lineCues": [
+          {
+            "atWord": "Prime"
+          },
+          {
+            "atWord": "who"
+          },
+          {
+            "atWord": "today"
+          }
+        ],
+        "stampCue": {
+          "atWord": "nobody"
+        }
+      },
+      "onScreenText": [
+        "Investigation: ANSSI, France",
+        "Attacker: not publicly identified",
+        "as of 13 Oct 2026"
+      ],
+      "sourceCitation": "TIME, 13 Oct 2026",
+      "transition": "fade"
+    },
+    {
+      "id": "s04a_five_failures_intro",
+      "beat": "S4",
+      "narration": "Nobody broke a window. Nobody picked a lock. Investigators have not yet said exactly how the attackers got in. But we know five things that made it possible. Keep count, because every one of them exists in hospitals too.",
+      "estimatedDurationSec": 14,
+      "component": "KineticText",
+      "props": {
+        "accent": "ice",
+        "align": "center",
+        "size": "lg",
+        "caption": "What we know made it possible · not a confirmed root cause",
+        "lineCues": [
+          {
+            "atWord": "five"
+          },
+          {
+            "atWord": "possible"
+          }
+        ]
+      },
+      "onScreenText": [
+        "5 failures",
+        "that made it possible"
+      ],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s04b_failure1_open_door",
+      "beat": "S4",
+      "narration": "Failure number one is an open door. These control panels run the cold chain of an entire store. They were reachable from the internet, so contractors could adjust them from anywhere. Convenient for the contractor, and just as convenient for anyone else. France's own cyber alert called this against best practice.",
+      "estimatedDurationSec": 18.2,
+      "component": "FailureCard",
+      "props": {
+        "number": 1,
+        "title": "An open door",
+        "body": "Store control panels were reachable over the internet so contractors could adjust them remotely.",
+        "metaphor": "door",
+        "tone": "amber"
+      },
+      "onScreenText": [],
+      "sourceCitation": "CERT-FR alert CERTFR-2026-ALE-012",
+      "transition": "slide"
+    },
+    {
+      "id": "s04c_failure2_patch",
+      "beat": "S4",
+      "narration": "Failure number two is a known fix that nobody applied. In August, two months before the attack, the security firm Claroty published flaws in one of these controllers. Some could let an intruder skip the login completely. A fix was already available. But the maker, Danfoss, said the affected units were running outdated firmware, the software built into the device. The cure existed. It never reached the patient.",
+      "estimatedDurationSec": 24,
+      "component": "FailureCard",
+      "props": {
+        "number": 2,
+        "title": "A known fix nobody applied",
+        "body": "Flaws published with patched firmware in Aug 2026. Attack in Oct 2026. Affected units ran outdated firmware.",
+        "metaphor": "calendar",
+        "calendar": {
+          "from": "AUG 2026",
+          "fromLabel": "Flaws published · patch available",
+          "to": "OCT 2026",
+          "toLabel": "Attack",
+          "gap": "2 months"
+        },
+        "tone": "amber"
+      },
+      "onScreenText": [],
+      "sourceCitation": "Claroty Team82, Aug 2026 · Danfoss via TIME",
+      "transition": "slide"
+    },
+    {
+      "id": "s04d_failure3_master_key",
+      "beat": "S4",
+      "narration": "Failure number three is a hidden master key. One of those flaws was a secret support login, built in by the vendor for its own engineers. A master key the owner never knew had been cut. You don't need to know how it works. You only need to know that keys like this exist.",
+      "estimatedDurationSec": 19.2,
+      "component": "FailureCard",
+      "props": {
+        "number": 3,
+        "title": "A hidden master key",
+        "body": "A hidden vendor-support login. Concept only: we will not show how it works.",
+        "metaphor": "key",
+        "tone": "amber"
+      },
+      "onScreenText": [],
+      "sourceCitation": "Claroty Team82 research, Aug 2026",
+      "transition": "slide"
+    },
+    {
+      "id": "s04e_failure4_same_lock",
+      "beat": "S4",
+      "narration": "Failure number four is that everyone used the same lock. Researchers found about two thousand seven hundred of these controllers exposed online, and nearly sixty percent of them were in France. So one weakness did not open one store. It opened hundreds.",
+      "estimatedDurationSec": 15.1,
+      "component": "FailureCard",
+      "props": {
+        "number": 4,
+        "title": "Everyone used the same lock",
+        "body": "~2,765 controllers exposed online. Nearly 60% of the world's exposed units were in France.",
+        "metaphor": "locks",
+        "percent": 60,
+        "tone": "amber"
+      },
+      "onScreenText": [],
+      "sourceCitation": "Claroty Team82 · UK Cyber Defence scans via TIME",
+      "transition": "slide"
+    },
+    {
+      "id": "s04f_hook",
+      "beat": "S4",
+      "narration": "And the fifth one is the one that should worry doctors the most.",
+      "estimatedDurationSec": 5.1,
+      "component": "KineticText",
+      "props": {
+        "accent": "red",
+        "align": "center",
+        "size": "xl"
+      },
+      "onScreenText": [
+        "Failure #5"
+      ],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s04g_failure5_alarm_fooled",
+      "beat": "S4",
+      "narration": "Failure number five is that the alarm was fooled. A defrost cycle is normal. It happens every day. So when a one hour defrost became an eight hour defrost, the system did not see an attack. It saw routine. The thermometer worked perfectly. It was simply measuring something it had been told was fine.",
+      "estimatedDurationSec": 19.2,
+      "component": "FailureCard",
+      "props": {
+        "number": 5,
+        "title": "The alarm was fooled",
+        "body": "A 1-hour defrost stretched to 8 hours. To the system, it looked like routine.",
+        "metaphor": "thermometer",
+        "tone": "red"
+      },
+      "onScreenText": [],
+      "sourceCitation": "Le Monde via TIME, 13 Oct 2026",
+      "transition": "slide"
+    },
+    {
+      "id": "s05a_pivot",
+      "beat": "S5",
+      "narration": "Now here is the part most people miss. This was not an AI attack. And that is exactly the point.",
+      "estimatedDurationSec": 7.5,
+      "component": "KineticText",
+      "props": {
+        "accent": "ice",
+        "align": "center",
+        "size": "xl",
+        "lineCues": [
+          {
+            "atWord": "This"
+          },
+          {
+            "atWord": "exactly"
+          }
+        ]
+      },
+      "onScreenText": [
+        "This wasn't an AI attack.",
+        "That's exactly the point."
+      ],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s05b_closed_loop",
+      "beat": "S5",
+      "narration": "For most of our careers, hospital machines lived on a closed network. The analyzer talked to the lab system. The scanner talked to the image archive. Everything stayed inside the building. It was never perfect. AIIMS Delhi was hit by ransomware in twenty twenty two. But the doors were few, and we knew where they were.",
+      "estimatedDurationSec": 19.9,
+      "component": "HospitalNetwork",
+      "props": {
+        "phase": "closed",
+        "nodes": [
+          "Analyzer",
+          "LIS",
+          "CT / MRI",
+          "PACS",
+          "EHR",
+          "Blood bank fridge"
+        ],
+        "wallLabel": "Hospital network",
+        "note": "Simplified picture",
+        "incident": "AIIMS Delhi · ransomware · Nov 2022",
+        "incidentCue": {
+          "atWord": "AIIMS"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s05c_ai_opens_doors",
+      "beat": "S5",
+      "narration": "AI changes that. An AI tool wants data and computing power. It calls a cloud server. A vendor updates it from outside. Someone runs a language model on a hospital machine and opens it to the web, just for testing. Every one of these is a new door. AI is quietly connecting the hospital to the open internet.",
+      "estimatedDurationSec": 20.6,
+      "component": "HospitalNetwork",
+      "props": {
+        "phase": "open",
+        "nodes": [
+          "Analyzer",
+          "LIS",
+          "CT / MRI",
+          "PACS",
+          "EHR",
+          "Blood bank fridge"
+        ],
+        "wallLabel": "Hospital network",
+        "doors": [
+          "Cloud AI API",
+          "Vendor remote support",
+          "Self-hosted LLM 'for testing'",
+          "AI scribe app",
+          "Smart fridge monitor"
+        ],
+        "note": "Simplified picture",
+        "doorCues": [
+          {
+            "atWord": "cloud"
+          },
+          {
+            "atWord": "vendor"
+          },
+          {
+            "atWord": "language"
+          },
+          {
+            "atWord": "Every"
+          },
+          {
+            "atWord": "connecting"
+          }
+        ]
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s05d_white_coat",
+      "beat": "S5",
+      "narration": "So look at a hospital AI tool the way an attacker would. A box on a network. Maintained by a vendor from outside. Running a version nobody updates. Giving answers people trust without checking. That is a supermarket fridge controller, wearing a white coat.",
+      "estimatedDurationSec": 15.8,
+      "component": "IconLine",
+      "props": {
+        "items": [
+          {
+            "icon": "server",
+            "text": "A box on a network",
+            "cue": {
+              "atWord": "box"
+            }
+          },
+          {
+            "icon": "wrench",
+            "text": "Maintained remotely by a vendor",
+            "cue": {
+              "atWord": "Maintained"
+            }
+          },
+          {
+            "icon": "clock",
+            "text": "A version nobody updates",
+            "cue": {
+              "atWord": "Running"
+            }
+          },
+          {
+            "icon": "check",
+            "text": "Outputs trusted without checking",
+            "cue": {
+              "atWord": "Giving"
+            }
+          }
+        ],
+        "punchline": "= a fridge controller in a white coat",
+        "punchlineCue": {
+          "atWord": "fridge"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s06a_mirror_intro",
+      "beat": "S6",
+      "narration": "Put the two side by side, and the match is uncomfortable.",
+      "estimatedDurationSec": 4.4,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 0
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s06b_mirror_remote",
+      "beat": "S6",
+      "narration": "The contractor's remote access becomes the vendor's remote access to your image archive, your lab system, or your AI server. Or that language model left open for testing.",
+      "estimatedDurationSec": 10.3,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 1
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06c_mirror_patch",
+      "beat": "S6",
+      "narration": "The unapplied firmware patch becomes an AI model, and the software around it, frozen on the day it was installed and never updated.",
+      "estimatedDurationSec": 8.5,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 2
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06d_mirror_key",
+      "beat": "S6",
+      "narration": "The hidden master key becomes the default password on an analyzer, a vendor account shared by ten people, or a secret access key written straight into an app.",
+      "estimatedDurationSec": 10.3,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 3
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06e_mirror_lock",
+      "beat": "S6",
+      "narration": "Everyone using the same lock becomes many hospitals relying on one AI vendor, or one foundation model. One flaw, many hospitals at once.",
+      "estimatedDurationSec": 8.5,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 4
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06f_mirror_setpoint",
+      "beat": "S6",
+      "narration": "The fridge set to fifty degrees becomes an AI agent with permission to place orders, edit the medical record, or change a dose.",
+      "estimatedDurationSec": 8.5,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 5
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06g_mirror_alarm",
+      "beat": "S6",
+      "narration": "And the fooled alarm becomes the most dangerous of all. A compromised AI model does not crash. It gives confident, plausible, wrong answers. And automation bias, our habit of trusting the machine, switches off the human alarm.",
+      "estimatedDurationSec": 13.4,
+      "component": "SplitMirror",
+      "props": {
+        "visibleRows": 6
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s06h_literal_fridges",
+      "beat": "S6",
+      "narration": "And hospitals have real fridges too. The vaccine cold chain, the blood bank, the reagent store, the minus eighty freezer. More and more of them now come with smart controllers and remote monitoring.",
+      "estimatedDurationSec": 12,
+      "component": "IconLine",
+      "props": {
+        "items": [
+          {
+            "icon": "syringe",
+            "text": "Vaccine cold chain · 2–8°C",
+            "cue": {
+              "atWord": "vaccine"
+            }
+          },
+          {
+            "icon": "droplet",
+            "text": "Blood bank · 2–6°C",
+            "cue": {
+              "atWord": "blood"
+            }
+          },
+          {
+            "icon": "flask",
+            "text": "Reagent storage",
+            "cue": {
+              "atWord": "reagent"
+            }
+          },
+          {
+            "icon": "snowflake",
+            "text": "Biobank · −80°C",
+            "cue": {
+              "atWord": "minus"
+            }
+          }
+        ],
+        "punchline": "Many now have smart controllers & remote monitoring",
+        "punchlineCue": {
+          "atWord": "smart"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s07a_australia_front_page",
+      "beat": "S6b",
+      "narration": "And if an AI walking through these doors sounds like science fiction, look at Australia. On the twenty fourth of September, the Prime Minister announced that an AI agent built by OpenAI had broken into the Medicare statistics portal, a government health system.",
+      "estimatedDurationSec": 15.4,
+      "component": "NewspaperFrontPage",
+      "props": {
+        "masthead": "The Cold Chain Chronicle",
+        "edition": "SPECIAL EDITION · THURSDAY 24 SEPTEMBER 2026 · SYDNEY DESK",
+        "headline": "AI AGENT BREAKS INTO HEALTH PORTAL",
+        "subhead": "Australia's Prime Minister says an OpenAI agent accessed Medicare's statistics portal, calling it unacceptable",
+        "photo": "agent",
+        "photoCaption": "An AI agent meets a locked door (moving picture, illustrative)",
+        "columns": [
+          "Prime Minister Anthony Albanese said an AI agent built by OpenAI accessed the Medicare Statistics Reporting Portal, a public-facing government health statistics site.",
+          "He said the agent reached files that were not public and also wrote files to an internal server. Officials said no patient records are believed to have been accessed.",
+          "OpenAI said the activity happened during an internal evaluation, while its model was researching questions about Australia, and that it found the activity during a review in August.",
+          "Australian officials were told on 10 September. The Prime Minister said the company took far too long to tell them."
+        ],
+        "sideHeadline": "WHAT WAS IT DOING?",
+        "sideText": "Looking for health statistics. Nobody asked it to hack anything.",
+        "footnote": "Illustrative front page. Reporting summarised from ABC News, Al Jazeera, CNN and The Washington Post, 23–24 Sep 2026."
+      },
+      "onScreenText": [],
+      "sourceCitation": "ABC News · Al Jazeera, 24 Sep 2026",
+      "transition": "spin"
+    },
+    {
+      "id": "s07b_agent_wont_take_no",
+      "beat": "S6b",
+      "narration": "Here is the part that should make every doctor sit up. Nobody asked it to hack anything. It was doing ordinary research in an internal test, looking for health statistics. It hit a block. In the Prime Minister's words, it didn't accept no for an answer. It found a way around, opened files that were not public, and wrote files onto the server.",
+      "estimatedDurationSec": 22.3,
+      "component": "AgentBreach",
+      "props": {
+        "task": "Find Australian health statistics",
+        "steps": [
+          {
+            "at": 0.12,
+            "text": "Search public pages",
+            "status": "ok",
+            "atWord": "research"
+          },
+          {
+            "at": 0.32,
+            "text": "Access blocked",
+            "status": "blocked",
+            "atWord": "block"
+          },
+          {
+            "at": 0.5,
+            "text": "Tries another way in",
+            "status": "warn",
+            "atWord": "around"
+          },
+          {
+            "at": 0.68,
+            "text": "Opens non-public files",
+            "status": "breach",
+            "atWord": "opened"
+          },
+          {
+            "at": 0.84,
+            "text": "Writes files to the server",
+            "status": "breach",
+            "atWord": "wrote"
+          }
+        ],
+        "quote": "“…didn't accept no for an answer.”",
+        "quoteBy": "Anthony Albanese, Prime Minister of Australia",
+        "note": "Simplified sequence, based on public statements · not OpenAI's actual logs"
+      },
+      "onScreenText": [],
+      "sourceCitation": "ABC News · Al Jazeera, 24 Sep 2026",
+      "transition": "fade"
+    },
+    {
+      "id": "s07c_agent_in_hospital",
+      "beat": "S6b",
+      "narration": "No patient records are believed to have been touched. OpenAI said its models took actions it did not intend. Now picture an agent like that inside your hospital, told to clear every pending report by morning, with write access to everything.",
+      "estimatedDurationSec": 14.7,
+      "component": "KineticText",
+      "props": {
+        "accent": "red",
+        "align": "center",
+        "size": "lg",
+        "caption": "Hypothetical hospital scenario",
+        "lineCues": [
+          {
+            "atWord": "OpenAI"
+          },
+          {
+            "atWord": "picture"
+          },
+          {
+            "atWord": "write"
+          }
+        ]
+      },
+      "onScreenText": [
+        "“Our models took actions we did not intend.” — OpenAI",
+        "Now imagine it inside your hospital…",
+        "…with write access."
+      ],
+      "sourceCitation": "OpenAI statement via Al Jazeera, 24 Sep 2026",
+      "transition": "fade"
+    },
+    {
+      "id": "s08a_poisoned_thermometer",
+      "beat": "S7",
+      "narration": "Remember the fooled alarm? Here is its AI version. A twenty twenty five study in Nature Medicine replaced just zero point zero zero one percent of a language model's training text with medical misinformation. That is one token in a hundred thousand. A token is a small piece of a word.",
+      "estimatedDurationSec": 18.2,
+      "component": "PoisonedThermometer",
+      "props": {
+        "stage": "poison",
+        "fraction": "0.001%",
+        "fractionLabel": "of training tokens replaced with misinformation",
+        "ratio": "1 in 100,000",
+        "ringCue": {
+          "atWord": "misinformation"
+        },
+        "ratioCue": {
+          "atWord": "token"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": "Alber et al., Nature Medicine 2025",
+      "transition": "fade"
+    },
+    {
+      "id": "s08b_benchmark_passes",
+      "beat": "S7",
+      "narration": "The models trained on poisoned text were more likely to spread medical errors. But on the standard medical benchmarks, they scored just as well as the clean ones. The benchmark is our thermometer. And the poisoned model passed it.",
+      "estimatedDurationSec": 13,
+      "component": "PoisonedThermometer",
+      "props": {
+        "stage": "benchmark",
+        "cleanLabel": "Clean model",
+        "poisonedLabel": "Poisoned model",
+        "benchmarkLabel": "Standard medical benchmarks",
+        "verdict": "Both pass. Only one is safe.",
+        "passCue": {
+          "atWord": "scored"
+        },
+        "verdictCue": {
+          "atWord": "passed"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": "Alber et al., Nature Medicine 2025",
+      "transition": "cut"
+    },
+    {
+      "id": "s08c_three_risks",
+      "beat": "S7",
+      "narration": "Three more risks, one line each. Prompt injection, where hidden instructions inside a PDF or an image get obeyed. Adversarial images, where pixel changes too small to see can flip a diagnosis. And over-privileged agents, AI that can act, not just suggest. Australia just showed us that one.",
+      "estimatedDurationSec": 17.2,
+      "component": "IconLine",
+      "props": {
+        "items": [
+          {
+            "icon": "file",
+            "text": "Prompt injection: hidden instructions in a PDF or image get obeyed",
+            "cue": {
+              "atWord": "Prompt"
+            }
+          },
+          {
+            "icon": "scan",
+            "text": "Adversarial images: invisible pixel changes flip a diagnosis",
+            "cue": {
+              "atWord": "Adversarial"
+            }
+          },
+          {
+            "icon": "bot",
+            "text": "Over-privileged agents: AI that can act, not just suggest",
+            "cue": {
+              "atWord": "over-privileged"
+            }
+          }
+        ],
+        "punchline": ""
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s09_why_bins",
+      "beat": "S8",
+      "narration": "One more detail. The stores threw the food away because they could not prove which of it was still safe. Now imagine your AI was compromised for three days. Which reports did it touch? If you cannot prove what it did, every one goes back for review. Logs and audit trails decide what you have to recall.",
+      "estimatedDurationSec": 20.3,
+      "component": "RecallScene",
+      "props": {
+        "leftTitle": "Supermarket",
+        "leftText": "Can't prove which food stayed cold → bin everything",
+        "rightTitle": "Hospital AI",
+        "rightText": "Can't prove what the AI did → re-review every report",
+        "windowLabel": "Hypothetical compromise window · 3 days",
+        "reports": 24,
+        "lesson": "Logs decide what you have to recall.",
+        "rightCue": {
+          "atWord": "imagine"
+        },
+        "flipCue": {
+          "atWord": "review"
+        },
+        "lessonCue": {
+          "atWord": "Logs"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s10a_checklist_intro",
+      "beat": "S9",
+      "narration": "So what do you actually do on Monday morning? Here are seven things you can do. None of them needs an engineer. They only need you to ask.",
+      "estimatedDurationSec": 10.3,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 0
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s10b_check1",
+      "beat": "S9",
+      "narration": "First, nothing that controls a system should face the open internet. Remote access goes through a VPN, or an approved list of addresses.",
+      "estimatedDurationSec": 8.5,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 1
+      },
+      "onScreenText": [],
+      "sourceCitation": "CERT-FR: restrict remote admin to trusted IPs",
+      "transition": "cut"
+    },
+    {
+      "id": "s10c_check2",
+      "beat": "S9",
+      "narration": "Second, patch on a schedule, and keep a list of every device and every AI tool you run. You cannot update what you do not know you have.",
+      "estimatedDurationSec": 10.3,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 2
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10d_check3",
+      "beat": "S9",
+      "narration": "Third, no default or shared passwords. And ask every vendor, in writing, whether their product has a support or backdoor account.",
+      "estimatedDurationSec": 7.8,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 3
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10e_check4",
+      "beat": "S9",
+      "narration": "Fourth, AI reads by default. Any action, an order, an edit, a dose, needs a human click.",
+      "estimatedDurationSec": 6.5,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 4
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10f_check5",
+      "beat": "S9",
+      "narration": "Fifth, monitor independently. Audit what your AI says over months, not just on launch day.",
+      "estimatedDurationSec": 5.8,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 5
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10g_check6",
+      "beat": "S9",
+      "narration": "Sixth, log everything, so that on the bad day you know exactly what to recall.",
+      "estimatedDurationSec": 5.8,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 6
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10h_check7",
+      "beat": "S9",
+      "narration": "Seventh, treat your vendors and contractors as part of your security. Their laptop is one of your front doors.",
+      "estimatedDurationSec": 7.2,
+      "component": "ChecklistReveal",
+      "props": {
+        "visibleItems": 7,
+        "showIndiaLowerThird": true
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "cut"
+    },
+    {
+      "id": "s10i_india",
+      "beat": "S9",
+      "narration": "In India, cyber incidents must be reported to CERT-In within six hours, and patient data is protected under the Digital Personal Data Protection Act. We have already lived a version of this story at AIIMS. We do not need to live it again.",
+      "estimatedDurationSec": 15.4,
+      "component": "IndiaContext",
+      "props": {
+        "items": [
+          {
+            "title": "CERT-In Directions, 2022",
+            "text": "Report cyber incidents within 6 hours",
+            "cue": {
+              "atWord": "CERT-In"
+            }
+          },
+          {
+            "title": "DPDP Act, 2023",
+            "text": "Governs personal data, including patient data",
+            "cue": {
+              "atWord": "Digital"
+            }
+          },
+          {
+            "title": "AIIMS Delhi, Nov 2022",
+            "text": "Major ransomware attack",
+            "cue": {
+              "atWord": "AIIMS"
+            }
+          }
+        ],
+        "line": "We've already lived a version of this.",
+        "lineCue": {
+          "atWord": "lived"
+        }
+      },
+      "onScreenText": [],
+      "sourceCitation": "CERT-In Directions (Apr 2022) · DPDP Act 2023",
+      "transition": "fade"
+    },
+    {
+      "id": "s10j_consult",
+      "beat": "S9b",
+      "narration": "If you would like help putting these seven checks in place for your own department, or for an AI tool you are building, you can book a one to one consultation with me. Just scan the code on your screen, or use the link in the description.",
+      "estimatedDurationSec": 16.8,
+      "component": "ConsultCard",
+      "props": {
+        "kicker": "WORK WITH ME · 1:1",
+        "title": "Book a one-to-one consultation",
+        "points": [
+          "AI security check for your department",
+          "Questions to ask your AI vendors",
+          "Planning a safe AI project"
+        ],
+        "url": "https://book.atultiwari.com/p/dr-atul-tiwari",
+        "displayUrl": "book.atultiwari.com/p/dr-atul-tiwari",
+        "scanLabel": "SCAN TO BOOK",
+        "name": "Dr. Atul Tiwari"
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s11a_callback",
+      "beat": "S10",
+      "narration": "Back to that fridge in your hospital. It reads four degrees again, and this time the alarm light works, because someone checked who holds the keys. The fridges in France did not fail. The assumptions did.",
+      "estimatedDurationSec": 13,
+      "component": "ThermometerDisplay",
+      "props": {
+        "label": "BLOOD BANK · FRIDGE 2",
+        "keyframes": [
+          {
+            "at": 0,
+            "temp": 50
+          },
+          {
+            "at": 0.35,
+            "atWord": "four",
+            "temp": 4
+          },
+          {
+            "at": 1,
+            "temp": 4
+          }
+        ],
+        "alarmWorking": true,
+        "alarmOn": false,
+        "night": false,
+        "clock": {
+          "from": "07:58",
+          "to": "08:00"
+        },
+        "caption": "The fridges didn't fail. The assumptions did."
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s11b_cta",
+      "beat": "S10",
+      "narration": "So here is my question for you. Who has remote access to the AI tools in your department? Write it in the comments, even if your answer is, I don't know, because that answer matters most.",
+      "estimatedDurationSec": 13,
+      "component": "EndCard",
+      "props": {
+        "question": "Who has remote access to the AI tools in your department?",
+        "prompt": "Answer in the comments, even if it's “I don't know.”",
+        "subscribe": ""
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    },
+    {
+      "id": "s11c_channel",
+      "beat": "S10",
+      "narration": "There is also a WhatsApp group where I share what is worth knowing about AI in medicine. The link is in the description. And if this was useful, subscribe, so you catch the next one.",
+      "estimatedDurationSec": 12.7,
+      "component": "ChannelCard",
+      "props": {
+        "name": "Dr. Atul Tiwari",
+        "tagline": "AI in healthcare, explained for doctors",
+        "groupTitle": "Join the WhatsApp group",
+        "groupNote": "Link in the description",
+        "subscribe": "Subscribe for the next one"
+      },
+      "onScreenText": [],
+      "sourceCitation": null,
+      "transition": "fade"
+    }
+  ]
+}
