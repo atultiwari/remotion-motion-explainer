@@ -146,7 +146,10 @@ def script_beats() -> dict[str, str]:
 
 def transcribe(beat: str, force: bool) -> dict:
     out = TTS / "whisper" / f"en-{beat}.json"
-    if out.exists() and not force:
+    # Reuse a cached transcript only while it is newer than the take: after a retake the old JSON
+    # would score the new audio against the old words (E03, Nov 2026).
+    wav = TTS / "takes" / f"en-{beat}.wav"
+    if out.exists() and not force and (not wav.exists() or out.stat().st_mtime >= wav.stat().st_mtime):
         return json.loads(out.read_text())
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
