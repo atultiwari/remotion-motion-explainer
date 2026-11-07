@@ -4,7 +4,8 @@
     ./check-script.py script.txt
     ./check-script.py script.txt --opening    # also check the first line
 
-Reads plain text: one paragraph per beat-line, blank lines between. Every rule here exists
+Reads plain text or a beat script: one paragraph per beat-line, blank lines between; lines
+starting with `#` (beat headings) are skipped. Every rule here exists
 because a real take came back wrong; see references/mistakes.md.
 
 Exit status is 1 if anything is flagged, so it can gate a build.
@@ -55,7 +56,10 @@ def main() -> int:
                         help="also check that the first line addresses the viewer")
     args = parser.parse_args()
 
-    text = args.script.read_text()
+    # Markdown headings (`# Title`, `## 01 · Beat`) are structure, not narration: blank them
+    # out, keeping line numbers, so they are neither linted (their digits) nor taken as the
+    # opening line. E01 and E02 failed both checks on headings alone (Nov 2026).
+    text = "\n".join("" if l.lstrip().startswith("#") else l for l in args.script.read_text().splitlines())
     problems: list[str] = []
 
     for line_no, sentence in fused_headings(text):
